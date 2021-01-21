@@ -10,7 +10,7 @@ function sayMyName() {
 const obj = {
     name: 'Felipe',
     sayMyName: function () {
-        console.log(this.name); // pega do escopo do objeto 
+        console.log(this.name) // pega do escopo do objeto 
     }
 }
 

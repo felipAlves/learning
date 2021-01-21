@@ -2,7 +2,7 @@
 // call do inglês chamar
 // retornar o this do contexto que for enviado
 
-this.name = "Felipe";
+this.name = "Felipe"
 
 
 // function sayMyName(age) {
@@ -11,8 +11,8 @@ this.name = "Felipe";
 // }
 
 function sayMyName() {
-    this.age = arguments[0];
-    console.log(this.name, this.age);
+    this.age = arguments[0]
+    console.log(this.name, this.age)
 }
 
 const dev = {

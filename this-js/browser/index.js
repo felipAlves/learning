@@ -6,6 +6,6 @@ function sayMyName() {
     console.log(this.name)
 }
 
-sayMyName();
+sayMyName()
 
 // window.name = this.name sem o 'use strict'
